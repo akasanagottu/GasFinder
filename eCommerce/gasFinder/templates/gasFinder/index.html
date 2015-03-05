@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+{% load staticfiles %} <!-- New line -->
+
+<html>
+        <head>
+
+            <title>GasFinder</title>
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+        </head>
+
+    <div align="left">
+    <body>
+
+        <h1><img src="{% static "images/gasCan.jpg" %}" alt="Map with Gas Stations" />GasFinder
+        <a href="/index/Sign in/">Sign in</a><br />
+        </h1>
+        
+        <h2>
+        <img src="{% static "images/map.jpg" %}" alt="Map with Gas Stations" /> <br /><!-- New line -->
+        <a href="/index/advertising/">Advertising</a>
+        <a href="/index/about/">About</a>
+        <a href="/index/settings/">Settings</a>
+            </h2>
+
+    </body>
+        </div>
+
+</html>
